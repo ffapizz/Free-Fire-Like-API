@@ -28,7 +28,7 @@ def main():
     uidpass_list = read_uidpass()
     new_tokens = []
     for item in uidpass_list:
-        token = fetch_token(item["uid"], item["password"])
+        token = fetch_token(item["4719840452"], item["NAJMI_FF_EXPERIMENTWKFVHDZWP"])
         if token:
             new_tokens.append({"token": token})
     if new_tokens:
